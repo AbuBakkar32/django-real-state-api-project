@@ -6,7 +6,7 @@ from .serializers import UserSerializer
 from rest_framework.decorators import api_view
 
 
-# GithubAthentication - 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
+# GithubAthentication - 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
 
 # Create your views here.
 @api_view(['POST', ])
