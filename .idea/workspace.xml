@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e3cd313-034e-4df0-9333-ac5d618e3a1e" name="Changes" comment="Django project created">
+    <list default="true" id="0e3cd313-034e-4df0-9333-ac5d618e3a1e" name="Changes" comment="Account app created">
+      <change afterPath="$PROJECT_DIR$/RealState/accounts/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealState/RealState/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealState/RealState/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealState/RealState/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealState/RealState/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -30,17 +36,21 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Nrnt1oYNbzxwpMARecQpBcjInR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/django-real-state-api-project",
+    "last_opened_file_path": "D:/django-real-state-api-project/RealState/buildings",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +62,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\django-real-state-api-project\RealState\buildings" />
+      <recent name="D:\django-real-state-api-project\RealState\realtor" />
+      <recent name="D:\django-real-state-api-project\RealState\contact" />
       <recent name="D:\django-real-state-api-project" />
     </key>
   </component>
@@ -65,7 +78,7 @@
       <updated>1680431296552</updated>
       <workItem from="1680431316374" duration="552000" />
       <workItem from="1680431941510" duration="20000" />
-      <workItem from="1680431991230" duration="1301000" />
+      <workItem from="1680431991230" duration="15011000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1680432158707</created>
@@ -88,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680432662213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Account app created">
+      <created>1680433603985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680433603985</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Account app created">
+      <created>1680433670388</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680433670388</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,8 +133,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init commit" />
     <MESSAGE value="Django project created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Django project created" />
+    <MESSAGE value="Account app created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Account app created" />
   </component>
 </project>
