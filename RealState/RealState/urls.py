@@ -27,6 +27,7 @@ urlpatterns = [
     path('api/auth/', include('accounts.urls')),
     path('api/contact/', include('contact.urls')),
     path('api/realtor/', include('realtor.urls')),
+    path('api/home/', include('buildings.urls')),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
