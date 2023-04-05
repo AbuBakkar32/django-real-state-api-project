@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from rest_framework import status, permissions, generics
+from rest_framework.pagination import PageNumberPagination
+
 from .serializers import ContactSerializer
 from .models import Contact
 from rest_framework.response import Response
@@ -30,10 +32,18 @@ class ContactAPIView(APIView):
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 
+# Modifying the pagination style
+class StandardResultsSetPagination(PageNumberPagination):
+    page_size = 1
+    page_size_query_param = 'page_size'
+    max_page_size = 10
+
+
 class ContactListCreateAPIView(ListCreateAPIView):
     permission_classes = [permissions.AllowAny]
     serializer_class = ContactSerializer
     queryset = Contact.objects.all()
+    # pagination_class = StandardResultsSetPagination
 
 
 class ContactRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
