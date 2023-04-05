@@ -4,6 +4,7 @@ from .serializers import ContactSerializer
 from .models import Contact
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 
 
 # Create your views here.
@@ -27,3 +28,16 @@ class ContactAPIView(APIView):
         queryset = Contact.objects.all()
         serializer = ContactSerializer(queryset, many=True)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+
+class ContactListCreateAPIView(ListCreateAPIView):
+    permission_classes = [permissions.AllowAny]
+    serializer_class = ContactSerializer
+    queryset = Contact.objects.all()
+
+
+class ContactRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
+    permission_classes = [permissions.AllowAny]
+    serializer_class = ContactSerializer
+    queryset = Contact.objects.all()
+    lookup_field = 'id'

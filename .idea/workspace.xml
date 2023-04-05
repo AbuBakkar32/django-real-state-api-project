@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e3cd313-034e-4df0-9333-ac5d618e3a1e" name="Changes" comment="Account app created">
+    <list default="true" id="0e3cd313-034e-4df0-9333-ac5d618e3a1e" name="Changes" comment="setting updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealState/RealState/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealState/RealState/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
       <workItem from="1680431316374" duration="552000" />
       <workItem from="1680431941510" duration="20000" />
       <workItem from="1680431991230" duration="15011000" />
-      <workItem from="1680523069856" duration="1952000" />
+      <workItem from="1680523069856" duration="5445000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1680432158707</created>
@@ -115,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680433670388</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="setting updated">
+      <created>1680676771524</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680676771524</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +145,7 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="Django project created" />
     <MESSAGE value="Account app created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Account app created" />
+    <MESSAGE value="setting updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting updated" />
   </component>
 </project>
