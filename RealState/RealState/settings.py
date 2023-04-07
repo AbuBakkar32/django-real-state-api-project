@@ -9,9 +9,11 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 https://testdriven.io/blog/django-social-auth/
+https://simpleisbetterthancomplex.com/tutorial/2016/10/24/how-to-add-social-login-to-django.html
 """
 
 from pathlib import Path
+from decouple import config
 import os
 from config import *
 
@@ -53,16 +55,20 @@ INSTALLED_APPS = [
     # social providers
     "allauth.socialaccount.providers.github",  # new
     "allauth.socialaccount.providers.twitter",  # new
+    "allauth.socialaccount.providers.google",  # new
 ]
 
 AUTHENTICATION_BACKENDS = (
+    "django.contrib.auth.backends.ModelBackend",
     "allauth.account.auth_backends.AuthenticationBackend",
 )
 
 SITE_ID = 1
-ACCOUNT_EMAIL_VERIFICATION = "none"
-LOGIN_REDIRECT_URL = "home"
-ACCOUNT_LOGOUT_ON_GET = True
+# ACCOUNT_EMAIL_VERIFICATION = "none"
+# LOGIN_REDIRECT_URL = "home"
+# ACCOUNT_LOGOUT_ON_GET = True
+LOGIN_REDIRECT_URL = '/'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

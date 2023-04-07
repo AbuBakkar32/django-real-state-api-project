@@ -17,6 +17,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
+from django.views.generic import TemplateView
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from RealState.views import Home
@@ -27,8 +28,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+
+    # Only for Social Account Authentication
+    path('', TemplateView.as_view(template_name="blog/index.html")),
     path("accounts/", include("allauth.urls")),  # new
-    path("", Home.as_view(), name="home"),  # new
+    # Only for Social Account Authentication
 
     path('api/auth/', include('accounts.urls')),
     path('api/contact/', include('contact.urls')),
