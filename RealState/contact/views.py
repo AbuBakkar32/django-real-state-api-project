@@ -43,7 +43,7 @@ class ContactListCreateAPIView(ListCreateAPIView):
     permission_classes = [permissions.AllowAny]
     serializer_class = ContactSerializer
     queryset = Contact.objects.all()
-    # pagination_class = StandardResultsSetPagination
+    pagination_class = StandardResultsSetPagination
 
 
 class ContactRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
