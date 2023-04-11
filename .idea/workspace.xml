@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e3cd313-034e-4df0-9333-ac5d618e3a1e" name="Changes" comment="setting updated">
+      <change beforePath="$PROJECT_DIR$/.idea/django-real-state-api-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django-real-state-api-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RealState/RealState/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealState/RealState/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealState/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RealState/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -46,6 +49,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -67,6 +71,9 @@
       <recent name="D:\django-real-state-api-project\RealState\contact" />
       <recent name="D:\django-real-state-api-project" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\django-real-state-api-project\RealState\templates\blog" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,7 +86,14 @@
       <workItem from="1680431316374" duration="552000" />
       <workItem from="1680431941510" duration="20000" />
       <workItem from="1680431991230" duration="15011000" />
-      <workItem from="1680523069856" duration="5445000" />
+      <workItem from="1680523069856" duration="8821000" />
+      <workItem from="1680682890753" duration="602000" />
+      <workItem from="1680767583390" duration="2103000" />
+      <workItem from="1680846338322" duration="9916000" />
+      <workItem from="1680863511141" duration="3838000" />
+      <workItem from="1680929784542" duration="662000" />
+      <workItem from="1680933944719" duration="1560000" />
+      <workItem from="1681042282483" duration="4056000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1680432158707</created>
