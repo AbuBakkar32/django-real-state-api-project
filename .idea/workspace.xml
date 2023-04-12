@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/django-real-state-api-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django-real-state-api-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RealState/RealState/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealState/RealState/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealState/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RealState/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +93,7 @@
       <workItem from="1680929784542" duration="662000" />
       <workItem from="1680933944719" duration="1560000" />
       <workItem from="1681042282483" duration="4056000" />
+      <workItem from="1681194092282" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1680432158707</created>

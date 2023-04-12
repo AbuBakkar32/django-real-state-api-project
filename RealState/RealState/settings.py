@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "django.contrib.sites",  # new
     'rest_framework',
     'rest_framework.authtoken',
     'rest_framework_simplejwt',
@@ -47,7 +48,6 @@ INSTALLED_APPS = [
     'realtor',
     'accounts',
     'buildings',
-    "django.contrib.sites",  # new
     # 3rd party
     "allauth",  # new
     "allauth.account",  # new
@@ -161,11 +161,6 @@ REST_FRAMEWORK = {
     },
     'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.NamespaceVersioning',
 }
-
-if not DEBUG:
-    REST_FRAMEWORK['DEFAULT_RENDERER_CLASSES'] = (
-        'rest_framework.renderers.JSONRenderer',
-    )
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
