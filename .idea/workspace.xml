@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e3cd313-034e-4df0-9333-ac5d618e3a1e" name="Changes" comment="setting updated">
-      <change beforePath="$PROJECT_DIR$/.idea/django-real-state-api-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django-real-state-api-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealState/RealState/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealState/RealState/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="0e3cd313-034e-4df0-9333-ac5d618e3a1e" name="Changes" comment="setting updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +90,7 @@
       <workItem from="1680933944719" duration="1560000" />
       <workItem from="1681042282483" duration="4056000" />
       <workItem from="1681194092282" duration="917000" />
+      <workItem from="1681298234941" duration="1666000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1680432158707</created>
