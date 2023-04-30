@@ -10,6 +10,7 @@ from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIV
 
 
 # Create your views here.
+# API View
 class ContactAPIView(APIView):
     permission_classes = [permissions.AllowAny]
     serializer_class = ContactSerializer
@@ -39,6 +40,7 @@ class StandardResultsSetPagination(PageNumberPagination):
     max_page_size = 10
 
 
+# Generic View
 class ContactListCreateAPIView(ListCreateAPIView):
     permission_classes = [permissions.AllowAny]
     serializer_class = ContactSerializer
