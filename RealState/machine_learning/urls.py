@@ -2,8 +2,9 @@
 
 # Path: RealState\machine_learning\urls.py
 from django.urls import path
+from .views import machine_learning
 
-# urlpatterns = [
-#     path('', home, name='predict'),
-#
-# ]
+urlpatterns = [
+    path('', machine_learning, name='ml'),
+
+]

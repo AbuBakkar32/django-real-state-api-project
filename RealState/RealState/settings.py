@@ -49,6 +49,9 @@ INSTALLED_APPS = [
     'accounts',
     'buildings',
     'machine_learning',
+    'deep_learning',
+    'data_analysis',
+    'Blogs',
     # 3rd party
     "allauth",  # new
     "allauth.account",  # new

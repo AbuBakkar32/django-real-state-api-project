@@ -41,6 +41,9 @@ urlpatterns = [
 
     # new app for machine learning
     path('ml/', include('machine_learning.urls')),
+    path('dl/', include('deep_learning.urls')),
+    path('da/', include('data_analysis.urls')),
+    path('blog/', include('Blogs.urls')),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
