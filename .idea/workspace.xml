@@ -16,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
         <option value="HTTP Request" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -75,12 +75,20 @@
       <recent name="D:\django-real-state-api-project\RealState\templates\blog" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="HTTP Request.rakib | POST Method">
+    <configuration name="rakib | GET Method" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/RealState/templates/rakib.http" index="2" requestIdentifier="GET Method" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rakib | POST Method" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/RealState/templates/rakib.http" requestIdentifier="POST Method" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="rakib | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/RealState/templates/rakib.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.rakib | POST Method" />
+        <item itemvalue="HTTP Request.rakib | GET Method" />
         <item itemvalue="HTTP Request.rakib | #1" />
       </list>
     </recent_temporary>
@@ -110,7 +118,7 @@
       <workItem from="1681639037222" duration="417000" />
       <workItem from="1682843505381" duration="174000" />
       <workItem from="1682860086360" duration="13000" />
-      <workItem from="1683346947114" duration="3502000" />
+      <workItem from="1683346947114" duration="4499000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1680432158707</created>
