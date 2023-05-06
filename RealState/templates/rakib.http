@@ -1,0 +1,14 @@
+### POST Method
+
+POST http://127.0.0.1:8000/da/
+Content-Type: application/json
+
+{}
+
+### GET Method
+
+GET http://127.0.0.1:8000/da/
+Accept: application/json
+
+
+
