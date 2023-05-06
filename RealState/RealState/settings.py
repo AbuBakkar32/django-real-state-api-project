@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'realtor',
     'accounts',
     'buildings',
+    'machine_learning',
     # 3rd party
     "allauth",  # new
     "allauth.account",  # new

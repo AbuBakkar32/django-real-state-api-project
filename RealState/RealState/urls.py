@@ -38,6 +38,9 @@ urlpatterns = [
     path('api/contact/', include('contact.urls')),
     path('api/realtor/', include('realtor.urls')),
     path('api/home/', include('buildings.urls')),
+
+    # new app for machine learning
+    path('ml/', include('machine_learning.urls')),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
