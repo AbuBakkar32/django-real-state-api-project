@@ -21,6 +21,7 @@
 
     <div>
         <ul>
+            Number of course: {{ data.lists|length }}
             {% for x in data.lists %}
                 <li><b>Item {{ forloop.counter }}</b>: {{ x }}</li>
             {% empty %}
