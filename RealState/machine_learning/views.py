@@ -12,5 +12,8 @@ def machine_learning(request):
         'subheading': 'Machine Learning',
         'content': 'Machine Learning Course Open for Registration',
         'request': session,
+        'lists': ['Machine Learning', 'Deep Learning', 'Data Analysis', 'Data Science', 'Artificial Intelligence']
     }
+    # Django Template Builtins Tags you all need to know
+    # https://docs.djangoproject.com/en/4.2/ref/templates/builtins/
     return render(request, 'machine_learning.html', {'data': context}, status=200)
