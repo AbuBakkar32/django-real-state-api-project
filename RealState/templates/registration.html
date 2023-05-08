@@ -9,7 +9,7 @@
   <form action="" method="POST" novalidate>
     {% csrf_token %}
       {% for fm in form %}
-      {{fm.label_tag}} {{fm}} {{fm.errors}}<br> <br>
+        {{fm.label_tag}} {{fm}} {{fm.errors}}<br> <br>
       {% endfor %}
   <input type="submit" name="submit">
   </form>
